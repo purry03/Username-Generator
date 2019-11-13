@@ -8,7 +8,7 @@ with open('nouns.txt', 'r') as infile:
 with open('adjectives.txt', 'r') as infile:
     adjectives = infile.read().strip(' \n').split('\n')
 #read censor list
-with open('censoredwords.txt','r') as inline:
+with open('blacklist.txt','r') as inline:
     censored = inline.read().strip(' \n').split('\n')
 # generate usernames
 for i in range(num):
